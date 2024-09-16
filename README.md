@@ -9,7 +9,7 @@ The communication channel from `gdb` to your softcore roughly looks like this:
 
 ```
 +-----+     +---------+     +------------+     +--------------+     +---------------------+
-| GDB | <-> | OpenOCD | <-> | fli_json.c | <-> | fli_json.vhd | <-> | JTAG TAP / softcore |
+| GDB | <-> | OpenOCD | <-> | fli_jtag.c | <-> | fli_jtag.vhd | <-> | JTAG TAP / softcore |
 +-----+  :  +---------+  :  +------------+  :  +--------------+  :  +---------------------+
         TCP         UNIX socket            FLI                  JTAG
 

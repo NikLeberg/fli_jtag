@@ -1,3 +1,7 @@
+> [!WARNING]
+> This repository has been superseeded by my own [NikLeberg/cosim_jtag](https://github.com/NikLeberg/cosim_jtag) which combines this FLI approach with VHPIDIRECT.
+> The code here is perfectly fine and still works with ModelSim/QuestaSim. It won't get any updates or new features though.
+
 # fli_jtag
 > Connect to your ModelSim / QuestaSim simulation via JTAG!
 
